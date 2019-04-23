@@ -22,34 +22,30 @@
 .middle {
     width: 100%;
 }
-#c {
+#c, #d {
     width:50%;
     line-height: 200px;
+}
+#c {
     background-color: red;
 }
 #d {
-    width: 50%;
-    line-height: 200px;
     background-color: yellow;
 }
-#e {
+#e, #f, #g, #h {
     width: 25%;
     line-height: 250px;
+}
+#e {
     background-color: aquamarine;
 }
 #f {
-    width: 25%;
-    line-height: 250px;
     background-color: rgb(22, 82, 97);
 }
 #g {
-    width: 25%;
-    line-height: 250px;
     background-color: orange;
 }
 #h {
-    width: 25%;
-    line-height: 250px;
     background-color: greenyellow;
 }
 #content:after {
@@ -91,35 +87,13 @@
     .middle {
         width: 100%;
     }
-    #c {
+    #c, #d {
         width:100%;
         line-height: 125px;
-        background-color: red;
     }
-    #d {
-        width: 100%;
-        line-height: 125px;
-        background-color: yellow;
-    }
-    #e {
+    #e, #f, #g, #h {
         width: 50%;
         line-height: 250px;
-        background-color: aquamarine;
-    }
-    #f {
-        width: 50%;
-        line-height: 250px;
-        background-color: rgb(22, 82, 97);
-    }
-    #g {
-        width: 50%;
-        line-height: 250px;
-        background-color: orange;
-    }
-    #h {
-        width: 50%;
-        line-height: 250px;
-        background-color: greenyellow;
     }
     #footer {
         width: 100%;
