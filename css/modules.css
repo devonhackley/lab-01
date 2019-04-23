@@ -1,0 +1,62 @@
+@media only screen and (min-width: 400px) and (max-width: 560px) {
+    div {
+      float: left;
+    }
+    div:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    #header {
+        width: 100%;
+        line-height: 75px;
+    }
+    #side-bar {
+        width: 100%;
+        line-height: 150px;
+        margin: 0px;
+        background-color: blueviolet;
+    }
+    #content {
+        width: 100%;
+    }
+    .middle {
+        width: 100%;
+    }
+    #c {
+        width:100%;
+        line-height: 125px;
+        background-color: red;
+    }
+    #d {
+        width: 100%;
+        line-height: 125px;
+        background-color: yellow;
+    }
+    #e {
+        width: 50%;
+        line-height: 250px;
+        background-color: aquamarine;
+    }
+    #f {
+        width: 50%;
+        line-height: 250px;
+        background-color: rgb(22, 82, 97);
+    }
+    #g {
+        width: 50%;
+        line-height: 250px;
+        background-color: orange;
+    }
+    #h {
+        width: 50%;
+        line-height: 250px;
+        background-color: greenyellow;
+    }
+    #footer {
+        width: 100%;
+        line-height: 80px;
+    }
+
+
+}

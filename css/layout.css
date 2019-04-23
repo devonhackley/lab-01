@@ -1,0 +1,65 @@
+#container {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#header {
+   width: 100%;
+   background-color: aqua;
+   line-height: 100px;
+}
+
+#side-bar {
+    width: 20.83%;
+    line-height: 600px;
+    margin: 0px;
+    background-color: blueviolet;
+}
+#content {
+   width: 79.17%;
+}
+.middle {
+    width: 100%;
+}
+#c {
+    width:50%;
+    line-height: 200px;
+    background-color: red;
+}
+#d {
+    width: 50%;
+    line-height: 200px;
+    background-color: yellow;
+}
+#e {
+    width: 25%;
+    line-height: 250px;
+    background-color: aquamarine;
+}
+#f {
+    width: 25%;
+    line-height: 250px;
+    background-color: rgb(22, 82, 97);
+}
+#g {
+    width: 25%;
+    line-height: 250px;
+    background-color: orange;
+}
+#h {
+    width: 25%;
+    line-height: 250px;
+    background-color: greenyellow;
+}
+#content:after {
+    content: "";
+    display: table;
+    clear: right;
+}
+#footer {
+    width: 79.17%;
+    line-height: 150px;
+    background-color: rgb(235, 55, 85);
+}
+
